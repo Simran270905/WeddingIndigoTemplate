@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family:monster; 
+    src: url("../src/assets/Fonts/Monster.ttf");
+}
+@font-face {
+    font-family: awesome;
+    src: url(../src/assets/Fonts/Awesome.ttf);
+}
+
+@font-face {
+    font-family: bidena;
+    src: url("../src/assets/Fonts/Bidenatrial.ttf");
+}
+@font-face {
+    font-family: transcity;
+    src: url("../src/assets/Fonts/Transcity.otf");
+}
+@font-face {
+    font-family:bidena; ;
+    src: url("../src/assets/fonts/Bidenatrial.ttf");
+}
+
+@font-face {
+    font-family: basker;
+    src: url("../src/assets/fonts/Baskervville-Regular.ttf");
+}
+@font-face {
+    font-family: weds;
+    src: url("../src/assets/fonts/Wedding-Accesories.ttf");
+}
+@font-face {
+    font-family: nav;
+    src: url("../src/assets/fonts/Awesome.ttf");
+}
+
+@font-face {
+    font-family: foot;
+    src: url("../src/assets/fonts/Milker.otf");
+}
+@font-face {
+    font-family: title;
+    src: url("../src/assets/fonts/Hasly.otf");
+}
+@font-face {
+    font-family: font ;
+    src: url("../src/assets/fonts/Footlight.ttf");
+}
+
+@font-face {
+    font-family: choco ;
+    src: url("../src/assets/fonts/Chocolate.ttf");
+}
+
+@font-face {
+    font-family: chopin ;
+    src: url("../src/assets/fonts/ChopinScript.ttf");
+}
+
+@theme {
+  --font-family: "Awake";
+  --font-heading:"Style Script", cursive; 
+  --font-head:bidena;
+  --font-para:basker;
+  --font-date:weds;
+  --font-nav:nav;
+  --font-foot:foot;
+  --font-title:title;
+  --font-font:font;
+  --font-monster:monster;
+  --font-awesome:awesome;
+  --font-choco:choco;
+  --font-chopin:chopin;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideInUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeInUp { animation: fadeInUp 1s ease-out; }
+.animate-slideInUp { animation: slideInUp 0.8s ease-out forwards; }
+.animate-slideInUp.delay-200 { animation-delay: 0.2s; }
+.animate-slideInUp.delay-400 { animation-delay: 0.4s; }
+.animate-slideInUp.delay-600 { animation-delay: 0.6s; }
+.animate-slideInUp.delay-800 { animation-delay: 0.8s; }
+.animate-bounce-slow { animation: bounce 3s infinite; }
+
