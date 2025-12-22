@@ -2,9 +2,9 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import pattern from "../assets/image/pattern.png";
-import e1 from "../assets/image/img1.jpg";
-import e2 from "../assets/image/img2.jpg";
-import e3 from "../assets/image/img3.jpg";
+import e1 from "../assets/image/e2.jpg";
+import e2 from "../assets/image/img5.jpg";
+import e3 from "../assets/image/e3.jpg";
 
 const events = [
   {
