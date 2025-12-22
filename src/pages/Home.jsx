@@ -5,6 +5,7 @@ import Venue from "../components/Venue";
 import Family from "../components/Family";
 import Closing from "../components/Closing";
 import AestheticPhotoGallery from "../components/PhotoGallery";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Venue />
       <Family />
       <Closing />
+      <Footer/>
     </main>
   );
 }
