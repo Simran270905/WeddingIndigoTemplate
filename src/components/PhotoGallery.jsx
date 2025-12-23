@@ -76,7 +76,7 @@ export default function AestheticPhotoGallery() {
             Precious Moments
           </motion.p>
           <motion.h2 
-            className="font-monster text-3xl md:text-4xl lg:text-5xl text-[#F0E7D5]"
+            className="font-choco text-3xl md:text-4xl lg:text-5xl text-[#F0E7D5]"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}

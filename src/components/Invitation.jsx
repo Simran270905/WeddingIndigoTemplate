@@ -85,7 +85,7 @@ export default function Invitation() {
           transition={{ duration: 0.3 }}
         >
           <motion.h2 
-            className="text-3xl md:text-4xl lg:text-[2.6rem] font-monster tracking-tight text-[#F0E7D5]"
+            className="text-3xl md:text-4xl lg:text-[2.6rem] font-choco tracking-tight text-[#F0E7D5]"
             variants={itemVariants}
             custom={1}
             whileHover={{ scale: 1.02 }}
@@ -102,7 +102,7 @@ export default function Invitation() {
           </motion.p>
 
           <motion.p 
-            className="text-2xl md:text-3xl lg:text-4xl font-monster  text-[#F0E7D5]"
+            className="text-2xl md:text-3xl lg:text-4xl font-choco  text-[#F0E7D5]"
             variants={itemVariants}
             custom={3}
             initial={{ opacity: 0, scale: 0.95 }}

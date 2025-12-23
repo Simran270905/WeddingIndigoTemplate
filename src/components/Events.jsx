@@ -100,7 +100,7 @@ export default function Events() {
             Wedding Schedule
           </motion.p>
           <motion.h2 
-            className="text-3xl md:text-4xl lg:text-5xl font-monster text-[#F0E7D5]"
+            className="text-3xl md:text-4xl lg:text-5xl font-choco text-[#F0E7D5]"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
