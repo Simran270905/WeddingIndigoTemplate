@@ -126,7 +126,7 @@ export default function Family() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <motion.p 
-                className="font-monster text-lg text-[#F0E7D5]"
+                className="font-choco text-lg text-[#F0E7D5]"
                 whileHover={{ scale: 1.05 }}
               >
                 Bride's Family
@@ -192,7 +192,7 @@ export default function Family() {
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <motion.p 
-                className="font-monster text-lg text-[#F0E7D5]"
+                className="font-choco text-lg text-[#F0E7D5]"
                 whileHover={{ scale: 1.05 }}
               >
                 Groom's Family

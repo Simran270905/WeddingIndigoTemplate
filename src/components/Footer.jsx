@@ -1,10 +1,29 @@
 // src/components/Footer.tsx
-export default function Footer() {
+const footerConfig = {
+  company: "StarX Innovation and IT Solution",
+  textSize: { default: "[0.7rem]", md: "xs" },
+  tracking: "[0.18em]",
+  colors: {
+    background: "#141827",
+    border: "#F0E7D5",
+    text: "#F0E7D5",
+  },
+  layout: {
+    marginTop: "16",
+    padding: { 
+      px: { default: "6", md: "10", lg: "16" }, 
+      py: "5" 
+    },
+    maxWidth: "6xl",
+  },
+};
+
+export default function Footer({ config = footerConfig }) {
   return (
-    <footer className="mt-16 border-t border-[#F0E7D5]/15 bg-[#141827]/95">
-      <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16 py-5">
-        <p className="text-[0.7rem] md:text-xs tracking-[0.18em] uppercase text-[#F0E7D5]/60 text-center">
-          © StarX Innovation and IT Solution. All rights reserved.
+    <footer className={`mt-${config.layout.marginTop} border-t border-[${config.colors.border}]/15 bg-[${config.colors.background}]/95`}>
+      <div className={`max-w-${config.layout.maxWidth} mx-auto px-${config.layout.padding.px.default} md:px-${config.layout.padding.px.md} lg:px-${config.layout.padding.px.lg} py-${config.layout.padding.py}`}>
+        <p className={`text-${config.textSize.default} md:text-${config.textSize.md} tracking-[${config.tracking}] uppercase text-[${config.colors.text}]/60 text-center`}>
+          © {config.company}. All rights reserved.
         </p>
       </div>
     </footer>
